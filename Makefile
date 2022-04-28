@@ -6,6 +6,8 @@ install: #установка poetry
 brain-games: #запуск
 	poetry run brain-games
 
+.PHONY: brain-games
+
 build: #собрать пакет и убедиться, что вы его правильно настроили
 	poetry build
 	
@@ -13,4 +15,4 @@ publish:  #публикация пакета, чтобы не добавлять
 	poetry publish --dry-run
 
 package-install: #установка пакета из операционной системы
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install --user  --force-reinstall dist/*.whl
