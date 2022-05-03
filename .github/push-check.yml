@@ -1,0 +1,18 @@
+# file: .github/workflows/push-check.yml
+name: push-check
+# on – определяет события, которые запускают воркфлоу
+on: push
+jobs:
+  # build – произвольно выбранное имя задания
+  # их может быть больше одного
+  build:
+    # операционная система для работы воркфлоу
+    runs-on: ubuntu-latest
+    steps: # список шагов, которые надо выполнить
+      # экшен, выполняет какую-то задачу
+      # checkout – клонирует репозиторий
+      - uses: actions/checkout@v3
+      # run – произвольная bash-команда
+      - uses: actions/setup-python@3
+      # ls -la выведет содержимое текущего репозитория
+      - run: make lint
