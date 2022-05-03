@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from brain_games.first import first_game
+from brain_games.games.first import first_game
 
 def main():
     first_game()
