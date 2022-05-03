@@ -13,6 +13,6 @@ jobs:
       # checkout – клонирует репозиторий
       - uses: actions/checkout@v3
       # run – произвольная bash-команда
-      - uses: actions/setup-python@3
+      - uses: actions/setup-python@v3
       # ls -la выведет содержимое текущего репозитория
       - run: make lint
