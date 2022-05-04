@@ -1,8 +1,7 @@
 # first brain game
 from random import randint
 import prompt
-from common_rules import welcome, say_hello, start_game
-
+from brain_games.common import welcome, say_hello, start_game
 
 def main():
     welcome() #приветствует игрока

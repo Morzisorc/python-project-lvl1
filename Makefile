@@ -8,8 +8,11 @@ brain-games: #запуск
 
 .PHONY: brain-games
 
-brain-even: #запуск игры с четными/нечетными
+brain-even: #запуск первой игры с четными/нечетными
 	poetry run brain-even
+
+brain-calc: #запуск игры с калькулятором
+	poetry run brain-calc
 
 build: #собрать пакет и убедиться, что вы его правильно настроили
 	poetry build
