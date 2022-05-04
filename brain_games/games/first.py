@@ -1,13 +1,12 @@
 # first brain game
 from random import randint
 import prompt
-from brain_games.common import welcome, say_hello, start_game
 
-def main():
-    welcome() #приветствует игрока
-    name = say_hello() #узнет и запоминает имя, здоровается
+
+
+def first_task():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    start_game(1, name)
+
 
 
 def first_game(name):

@@ -1,15 +1,10 @@
-# first brain game
+# second brain game
 from random import randint
 import prompt
-from common import welcome, say_hello, start_game
 
 
-def main():
-    welcome() #приветствует игрока
-    name = say_hello() #узнет и запоминает имя, здоровается
+def second_task():
     print('What is the result of the expression?')
-    start_game(2, name)
-
 
 def second_game(name):
     num1 = randint(1, 30)
@@ -26,5 +21,5 @@ def second_game(name):
         result = num1 * num2
     
     answer = prompt.string('Your answer: ')
-    return True if answer == result else print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\nLet's try again, {name}!")
+    return True if int(answer) == result else print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\nLet's try again, {name}!")
      

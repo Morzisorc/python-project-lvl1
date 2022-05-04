@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from brain_games.games.first import first_game
+from brain_games import common
 
 def main():
-    first_game()
+    common.start_game(1)
 
 if __name__ == '__main__':
     main()
