@@ -1,25 +1,27 @@
 # second brain game
+
 from random import randint
+
 import prompt
 
 
 def second_task():
     print('What is the result of the expression?')
 
+
 def second_game(name):
     num1 = randint(1, 30)
     num2 = randint(1, 30)
-    sign_num = randint(1,3)
-    if sign_num == 1: #знак +
+    sign_num = randint(1, 3)
+    if sign_num == 1:  # знак +
         print(f'Question: {str(num1)} + {str(num2)}')
-        result = num1 + num2
-    elif sign_num == 2: #знак -
+        res = num1 + num2
+    elif sign_num == 2:  # знак -
         print(f'Question: {str(num1)} - {str(num2)}')
-        result = num1 - num2
-    elif sign_num == 3: #знак *
+        res = num1 - num2
+    elif sign_num == 3:  # знак *
         print(f'Question: {str(num1)} * {str(num2)}')
-        result = num1 * num2
-    
+        res = num1 * num2
+
     answer = prompt.string('Your answer: ')
-    return True if int(answer) == result else print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\nLet's try again, {name}!")
-     
+    return True if int(answer) == res else print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")

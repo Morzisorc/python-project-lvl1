@@ -1,12 +1,12 @@
 # first brain game
-from random import randint
-import prompt
 
+from random import randint
+
+import prompt
 
 
 def first_task():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-
 
 
 def first_game(name):
@@ -14,7 +14,6 @@ def first_game(name):
     print(f'Question: {num}')
     answer = prompt.string('Your answer: ')
     return True if answer == is_even(num) else print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(num)}'.\nLet's try again, {name}!")
-     
 
 
 def is_even(num):
