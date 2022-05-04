@@ -1,6 +1,7 @@
 import prompt
 from brain_games.games.first import first_game, first_task
 from brain_games.games.second import second_game, second_task
+from brain_games.games.third import third_game, third_task
 
 
 def welcome():
@@ -36,11 +37,14 @@ def give_task(game_num):
         first_task()
     elif game_num == 2:
         second_task()
+    elif game_num == 3:
+        third_task()
 
 
 def is_round_won(game_num, name):
     if game_num == 1:
         return bool(first_game(name))  # проверяет, выигран ли раунд
-
     elif game_num == 2:
         return bool(second_game(name))
+    elif game_num == 3:
+        return bool(third_game(name))

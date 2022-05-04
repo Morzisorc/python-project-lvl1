@@ -8,3 +8,6 @@
 
 # second game
 [![asciicast](https://asciinema.org/a/hGwVh8MDYlh4MbEKWjqT6iGRu.svg)](https://asciinema.org/a/hGwVh8MDYlh4MbEKWjqT6iGRu)
+
+# third game
+[![asciicast](https://asciinema.org/a/KP11u3NBs3X215gRTb6SNHjfy.svg)](https://asciinema.org/a/KP11u3NBs3X215gRTb6SNHjfy) 
