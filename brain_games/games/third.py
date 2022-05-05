@@ -16,7 +16,8 @@ def third_game(name):
     min_num = randint(bottom_bound, upper_bound)
     print(f'Question: {max_num} {min_num}')
     if min_num > max_num:
-        (max_num, min_num) = (min_num, max_num)  # делаем максимальное максимальным
+        # делаем максимальное максимальным
+        (max_num, min_num) = (min_num, max_num)
     res = find_gcd(max_num, min_num)
     answer = prompt.integer('Your answer: ')
     if answer == res:
