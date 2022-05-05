@@ -18,7 +18,9 @@ def first_game(name):
     if answer == is_even(num):
         return True
     else:
-        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(num)}'.\nLet's try again, {name}!")
+        answer_is_wrong = f"'{answer}' is wrong answer ;(. "
+        try_again = f"Correct answer was '{is_even(num)}'.\nLet's try again, {name}!"
+        return print(answer_is_wrong + try_again)
 
 
 def is_even(num):

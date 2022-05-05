@@ -19,8 +19,9 @@ def fifth_game(name):
     if answer == res:
         return True
     else:
-        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")
-
+        answer_is_wrong = f"'{answer}' is wrong answer ;(. "
+        try_again = f"Correct answer was '{res}'.\nLet's try again, {name}!"
+        return print(answer_is_wrong + try_again)
 
 def is_prime(num):
     if num % 2 == 0:

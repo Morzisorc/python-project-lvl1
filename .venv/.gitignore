@@ -4,4 +4,4 @@
 asciinemas/
 __pycache__
 *.pyc
-dist/
+dist
