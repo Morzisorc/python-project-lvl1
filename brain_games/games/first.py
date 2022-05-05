@@ -5,7 +5,7 @@ from random import randint
 import prompt
 
 
-def first_task():
+def first_task():  # был вариант все тексты заданий вынести в отдельный файл
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 

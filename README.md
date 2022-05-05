@@ -11,3 +11,9 @@
 
 # third game
 [![asciicast](https://asciinema.org/a/KP11u3NBs3X215gRTb6SNHjfy.svg)](https://asciinema.org/a/KP11u3NBs3X215gRTb6SNHjfy) 
+
+# forth game
+[![asciicast](https://asciinema.org/a/OM5zc53H2WTDF1LhROUIi0BZF.svg)](https://asciinema.org/a/OM5zc53H2WTDF1LhROUIi0BZF)
+
+# fifth game
+[![asciicast](https://asciinema.org/a/nK2sI9sA8T9GRM5wIWFI29xOC.svg)](https://asciinema.org/a/nK2sI9sA8T9GRM5wIWFI29xOC)

@@ -1,4 +1,5 @@
 import prompt
+from brain_games.games.fifth import fifth_game, fifth_task
 from brain_games.games.first import first_game, first_task
 from brain_games.games.forth import forth_game, forth_task
 from brain_games.games.second import second_game, second_task
@@ -42,6 +43,8 @@ def give_task(game_num):
         third_task()
     elif game_num == 4:
         forth_task()
+    elif game_num == 5:
+        fifth_task()
 
 
 def is_round_won(game_num, name):
@@ -53,3 +56,5 @@ def is_round_won(game_num, name):
         return bool(third_game(name))
     elif game_num == 4:
         return bool(forth_game(name))
+    elif game_num == 5:
+        return bool(fifth_game(name))
