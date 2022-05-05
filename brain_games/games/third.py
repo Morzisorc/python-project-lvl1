@@ -10,8 +10,10 @@ def third_task():
 
 
 def third_game(name):
-    max_num = randint(1, 100)
-    min_num = randint(1, 100)
+    bottom_bound = 1
+    upper_bound = 100
+    max_num = randint(bottom_bound, upper_bound)
+    min_num = randint(bottom_bound, upper_bound)
     print(f'Question: {max_num} {min_num}')
     if min_num > max_num:
         (max_num, min_num) = (min_num, max_num)  # делаем максимальное максимальным

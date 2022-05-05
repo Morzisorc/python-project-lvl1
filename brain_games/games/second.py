@@ -10,8 +10,10 @@ def second_task():
 
 
 def second_game(name):
-    num1 = randint(1, 30)
-    num2 = randint(1, 30)
+    bottom_bound = 1
+    upper_bound = 30
+    num1 = randint(bottom_bound, upper_bound)
+    num2 = randint(bottom_bound, upper_bound)
     sign_num = randint(1, 3)
     if sign_num == 1:  # знак +
         print(f'Question: {str(num1)} + {str(num2)}')

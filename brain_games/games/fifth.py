@@ -10,7 +10,9 @@ def fifth_task():
 
 
 def fifth_game(name):
-    num = randint(1, 100)
+    bottom_bound = 1
+    upper_bound = 100
+    num = randint(bottom_bound, upper_bound)
     print(f'Question: {num}')
     res = is_prime(num)
     answer = prompt.string('Your answer: ')

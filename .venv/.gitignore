@@ -1,3 +1,7 @@
 # created by virtualenv automatically
 
 .venv
+asciinemas/
+__pycache__
+*.pyc
+dist/
