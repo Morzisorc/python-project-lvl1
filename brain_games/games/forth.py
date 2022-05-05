@@ -24,4 +24,7 @@ def forth_game(name):
     print(f'Question:{sequence}')
     res = start_num + step * blank_position
     answer = prompt.integer('Your answer: ')
-    return True if answer == res else print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")
+    if answer == res:
+        return True
+    else:
+        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")

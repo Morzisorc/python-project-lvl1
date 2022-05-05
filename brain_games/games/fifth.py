@@ -14,7 +14,10 @@ def fifth_game(name):
     print(f'Question: {num}')
     res = is_prime(num)
     answer = prompt.string('Your answer: ')
-    return True if answer == res else print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")
+    if answer == res:
+        return True
+    else:
+        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")
 
 
 def is_prime(num):

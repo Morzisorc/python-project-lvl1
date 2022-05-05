@@ -24,4 +24,7 @@ def second_game(name):
         res = num1 * num2
 
     answer = prompt.string('Your answer: ')
-    return True if int(answer) == res else print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")
+    if int(answer) == res:
+        return True
+    else:
+        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{res}'.\nLet's try again, {name}!")

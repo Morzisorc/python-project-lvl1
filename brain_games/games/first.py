@@ -13,7 +13,10 @@ def first_game(name):
     num = randint(1, 100)
     print(f'Question: {num}')
     answer = prompt.string('Your answer: ')
-    return True if answer == is_even(num) else print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(num)}'.\nLet's try again, {name}!")
+    if answer == is_even(num):
+        return True
+    else:
+        return print(f"'{answer}' is wrong answer ;(. Correct answer was '{is_even(num)}'.\nLet's try again, {name}!")
 
 
 def is_even(num):
