@@ -23,6 +23,7 @@ def fifth_game(name):
         try_again = f"Correct answer was '{res}'.\nLet's try again, {name}!"
         return print(answer_is_wrong + try_again)
 
+
 def is_prime(num):
     if num % 2 == 0:
         return 'yes' if num == 2 else 'no'
