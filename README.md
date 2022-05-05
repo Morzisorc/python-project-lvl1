@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Morzisorc/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Morzisorc/python-project-lvl1/actions)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/63789bb07adec5f603c8/maintainability)](https://codeclimate.com/github/Morzisorc/python-project-lvl1/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2ed0845755a1aa4a3773/maintainability)](https://codeclimate.com/github/Morzisorc/python-project-lvl1/maintainability)
 
 
 # first game 
